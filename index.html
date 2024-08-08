@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .resume-container {
+            width: 800px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            border-bottom: 1px solid #000;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .personal-info, .section {
+            margin-bottom: 20px;
+        }
+        .personal-info table, .section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .personal-info th, .personal-info td, .section th, .section td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        .personal-info th {
+            width: 20%;
+        }
+        .section-title {
+            background-color: #f2f2f2;
+            padding: 10px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #000;
+            margin-bottom: 10px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>이력서</h1>
+        </div>
+
+        <div class="personal-info">
+            <table>
+                <tr>
+                    <td rowspan="4" style="width:90px; height:120px;" colspan="3"><img src="홍길동.jpg" alt="본인 사진 삽입"></td>
+                    <th>이름</th>
+                    <td>김형석</td>
+                    <th>성별</th>
+                    <td>남</td>
+                </tr>
+                <tr>
+                    <th>주소</th>
+                    <td colspan="3">경상남도 김해시</td>
+                </tr>
+                <tr>
+                    <th>연락처</th>
+                    <td>010-1234-5678</td>
+                    <th>이메일</th>
+                    <td>example@naver.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <div class="section-title">학력사항</div>
+            <table>
+                <tr>
+                    <th>입학일</th>
+                    <th>졸업일</th>
+                    <th>학교명</th>
+                    <th>전공/부전공</th>
+                </tr>
+                <tr>
+                    <td>2018-03</td>
+                    <td>2024-02</td>
+                    <td>경상대학교</td>
+                    <td>제어계측공학</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <div class="section-title">교육이수사항</div>
+            <table>
+                <tr>
+                    <th>교육명</th>
+                    <th>기간</th>
+                    <th>세부내용</th>
+                </tr>
+                <tr>
+                    <td>[인텔] AI 융합 DX 마스터 클래스</td>
+                    <td>2024-07 ~ </td>
+                    <td>AI를 활용하여 설비를 제어하기 위한 기술 습득</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <div class="section-title">보유기술</div>
+            <table>
+                <tr>
+                    <th>종류</th>
+                    <th>기술명</th>
+                </tr>
+                <tr>
+                    <th>SW</th>
+                    <td>Visual Stdio (C/C++)</td>
+                </tr>
+                <tr>
+                    <th>SW</th>
+                    <td>Visual Stdio Code (Python)</td>
+                </tr>
+                <tr>
+                    <th>SW</th>
+                    <td>OpenCV</td>
+                </tr>
+                <tr>
+                    <th>공학용</th>
+                    <td>PSIM</td>
+                </tr>
+                <tr>
+                    <th>공학용</th>
+                    <td>Multisim</td>
+                </tr>
+                <tr>
+                    <th>공학용</th>
+                    <td>Altium Designer</td>
+                </tr>
+                <tr>
+                    <th>공학용</th>
+                    <td>CodeVisonAVR</td>
+                </tr>
+                <tr>
+                    <th>CAD</th>
+                    <td>Solidworks</td>
+                </tr>
+                <tr>
+                    <th>PLC</th>
+                    <td>Gxworks2</td>
+                </tr>
+            </table>
+        <div class="section">
+            <div class="section-title">자격증</div>
+            <table>
+                <tr>
+                    <th>이름</th>
+                    <th>발급기관</th>
+                    <th>취득일</th>
+                </tr>
+                <tr>
+                    <th>운전면허 1종 보통</th>
+                    <th>부산광역시경찰청</th>
+                    <th>2021.05.24</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
